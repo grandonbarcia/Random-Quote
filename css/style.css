@@ -1,0 +1,132 @@
+body {
+  width:100%;
+  height: 100vh;
+  background-color: #f2f7ff;
+}
+
+
+.block {
+  width: 50%;
+  height: 50vh;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  width: 60%;
+  height: 100%;
+  background-color: #ffe867;
+}
+
+
+.navbar {
+  background-color: #ffe867;
+}
+
+.logo {
+  color: #0b409c;
+}
+
+.logo:hover {
+  color: #b73535;
+  font-weight: 600;
+}
+
+
+.author {
+  font-family: 'Krona One', sans-serif;
+  font-size: 25px;
+}
+
+.quote {
+  width: 100%;
+  height: 300px;
+  padding-top: 18%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: lightblue;
+  overflow: auto;
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: black;
+}
+
+@media (max-width: 1200px) {
+  .block {
+    width: 50%;
+    height: 50vh;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card {
+    max-width: 60%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffe867;
+  }
+
+}
+
+
+@media (max-width: 992px) {
+
+  .block {
+    width: 70%;
+    height: 50vh;
+    margin-top: 100px;
+
+  }
+
+  .card {
+    width: 60%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffe867;
+  }
+
+
+}
+
+@media (max-width: 768px) {
+
+  .block {
+    width: 80%;
+    height: 50vh;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card {
+    width: 60%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffe867;
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  .block {
+    width: 100%;
+    height: 50vh;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card {
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffe867;
+  }
+
+}
