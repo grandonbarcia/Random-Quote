@@ -13,13 +13,6 @@ $(document).ready(function() {
 
         $(".quote").html(data.quote.body);
         $(".author").html(data.quote.author);
-
-        url: 'http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1',
-        dataType: "json",
-        success: function(data) {
-
-          $(".quote").html(data[0].content);
-          $(".author").html(data[0].title);
         },
         cache: false
       });
